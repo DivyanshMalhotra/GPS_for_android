@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+
+    tools:context="com.example.divyansh.letsmakeitwork.MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/position"
+            android:text="This App shows your gps value"/>
+        <TextView
+            android:id="@+id/values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="27dp"
+            android:paddingBottom="27dp"
+            android:text="Location 0: Lat: 0 Lng:0 Alt:0 Speed: 0"/>
+        <Button
+            android:layout_width = "wrap_content"
+            android:layout_height ="wrap_content"
+            android:text="QUIT"
+            android:onClick="onClick"/>
+    </LinearLayout>
+</RelativeLayout>
